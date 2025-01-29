@@ -1,5 +1,7 @@
 def suma_promedio(numeros):
-    suma = sum(numeros)
+    suma = 0
+    for i in numeros:
+        suma += i
     promedio = suma / len(numeros)
     print(f"Suma: {suma}, Promedio: {promedio}")
 numeros = [90, 50, 70]
